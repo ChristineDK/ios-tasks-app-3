@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC34F57227E5A50000D1AC92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC34F57127E5A50000D1AC92 /* GoogleService-Info.plist */; };
+		AC34F57427E5A75800D1AC92 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34F57327E5A75800D1AC92 /* Task.swift */; };
+		AC34F57727E5A84C00D1AC92 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34F57627E5A84C00D1AC92 /* DatabaseManager.swift */; };
+		AC34F57A27E5B14B00D1AC92 /* TasksVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34F57927E5B14B00D1AC92 /* TasksVCDelegate.swift */; };
+		AC34F57D27E5B5E100D1AC92 /* OngoingTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34F57C27E5B5E100D1AC92 /* OngoingTaskTableViewCell.swift */; };
+		AC807DC427EAF2AD00D5552D /* DoneTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC807DC327EAF2AD00D5552D /* DoneTaskTableViewCell.swift */; };
+		AC807DC827EAF35E00D5552D /* DoneTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC807DC727EAF35E00D5552D /* DoneTasksTableViewController.swift */; };
 		ACADE3FA27E2C96000475242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADE3F927E2C96000475242 /* AppDelegate.swift */; };
 		ACADE3FC27E2C96000475242 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADE3FB27E2C96000475242 /* SceneDelegate.swift */; };
-		ACADE3FE27E2C96000475242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADE3FD27E2C96000475242 /* ViewController.swift */; };
+		ACADE3FE27E2C96000475242 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADE3FD27E2C96000475242 /* TasksViewController.swift */; };
 		ACADE40127E2C96000475242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADE3FF27E2C96000475242 /* Main.storyboard */; };
 		ACADE40327E2C96800475242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADE40227E2C96800475242 /* Assets.xcassets */; };
 		ACADE40627E2C96800475242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADE40427E2C96800475242 /* LaunchScreen.storyboard */; };
+		ACADE40E27E2CA0700475242 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ACADE40D27E2CA0700475242 /* Podfile */; };
+		ACADE41127E2E14E00475242 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADE41027E2E14E00475242 /* MenuSection.swift */; };
+		ACADE41427E2E3B400475242 /* OngoingTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADE41327E2E3B400475242 /* OngoingTasksTableViewController.swift */; };
+		ACADE41827E2EF7900475242 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADE41727E2EF7900475242 /* NewTaskViewController.swift */; };
+		C7EE52F54203A59D3CF8664B /* Pods_ios_tasks_app_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89C18BF6203E946D44086BE /* Pods_ios_tasks_app_3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		761F8CD6B78BE201ECB84748 /* Pods-ios-tasks-app-3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-tasks-app-3.release.xcconfig"; path = "Target Support Files/Pods-ios-tasks-app-3/Pods-ios-tasks-app-3.release.xcconfig"; sourceTree = "<group>"; };
+		A89C18BF6203E946D44086BE /* Pods_ios_tasks_app_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_tasks_app_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC34F57127E5A50000D1AC92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC34F57327E5A75800D1AC92 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		AC34F57627E5A84C00D1AC92 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		AC34F57927E5B14B00D1AC92 /* TasksVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksVCDelegate.swift; sourceTree = "<group>"; };
+		AC34F57C27E5B5E100D1AC92 /* OngoingTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingTaskTableViewCell.swift; sourceTree = "<group>"; };
+		AC807DC327EAF2AD00D5552D /* DoneTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTaskTableViewCell.swift; sourceTree = "<group>"; };
+		AC807DC727EAF35E00D5552D /* DoneTasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTasksTableViewController.swift; sourceTree = "<group>"; };
 		ACADE3F627E2C96000475242 /* ios-tasks-app-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-tasks-app-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACADE3F927E2C96000475242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACADE3FB27E2C96000475242 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACADE3FD27E2C96000475242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACADE3FD27E2C96000475242 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		ACADE40027E2C96000475242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACADE40227E2C96800475242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACADE40527E2C96800475242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACADE40727E2C96800475242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADE40D27E2CA0700475242 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACADE41027E2E14E00475242 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		ACADE41327E2E3B400475242 /* OngoingTasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingTasksTableViewController.swift; sourceTree = "<group>"; };
+		ACADE41727E2EF7900475242 /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		D00B3F0B551E29E4E4300B03 /* Pods-ios-tasks-app-3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-tasks-app-3.debug.xcconfig"; path = "Target Support Files/Pods-ios-tasks-app-3/Pods-ios-tasks-app-3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7EE52F54203A59D3CF8664B /* Pods_ios_tasks_app_3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BD922A74F5D2C76510E3A01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D00B3F0B551E29E4E4300B03 /* Pods-ios-tasks-app-3.debug.xcconfig */,
+				761F8CD6B78BE201ECB84748 /* Pods-ios-tasks-app-3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96CAEF73F0C42CB79A64E452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A89C18BF6203E946D44086BE /* Pods_ios_tasks_app_3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC34F57527E5A83700D1AC92 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				AC34F57627E5A84C00D1AC92 /* DatabaseManager.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		AC34F57827E5B12C00D1AC92 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AC34F57927E5B14B00D1AC92 /* TasksVCDelegate.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		AC34F57B27E5B5BF00D1AC92 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AC34F57C27E5B5E100D1AC92 /* OngoingTaskTableViewCell.swift */,
+				AC807DC327EAF2AD00D5552D /* DoneTaskTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		ACADE3ED27E2C96000475242 = {
 			isa = PBXGroup;
 			children = (
+				ACADE40D27E2CA0700475242 /* Podfile */,
 				ACADE3F827E2C96000475242 /* ios-tasks-app-3 */,
 				ACADE3F727E2C96000475242 /* Products */,
+				3BD922A74F5D2C76510E3A01 /* Pods */,
+				96CAEF73F0C42CB79A64E452 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,40 @@
 		ACADE3F827E2C96000475242 /* ios-tasks-app-3 */ = {
 			isa = PBXGroup;
 			children = (
+				AC34F57B27E5B5BF00D1AC92 /* view */,
+				AC34F57827E5B12C00D1AC92 /* protocol */,
+				AC34F57527E5A83700D1AC92 /* service */,
+				ACADE41227E2E39900475242 /* controller */,
+				ACADE40F27E2E13C00475242 /* model */,
 				ACADE3F927E2C96000475242 /* AppDelegate.swift */,
 				ACADE3FB27E2C96000475242 /* SceneDelegate.swift */,
-				ACADE3FD27E2C96000475242 /* ViewController.swift */,
 				ACADE3FF27E2C96000475242 /* Main.storyboard */,
 				ACADE40227E2C96800475242 /* Assets.xcassets */,
 				ACADE40427E2C96800475242 /* LaunchScreen.storyboard */,
+				AC34F57127E5A50000D1AC92 /* GoogleService-Info.plist */,
 				ACADE40727E2C96800475242 /* Info.plist */,
 			);
 			path = "ios-tasks-app-3";
+			sourceTree = "<group>";
+		};
+		ACADE40F27E2E13C00475242 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ACADE41027E2E14E00475242 /* MenuSection.swift */,
+				AC34F57327E5A75800D1AC92 /* Task.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		ACADE41227E2E39900475242 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACADE3FD27E2C96000475242 /* TasksViewController.swift */,
+				ACADE41327E2E3B400475242 /* OngoingTasksTableViewController.swift */,
+				ACADE41727E2EF7900475242 /* NewTaskViewController.swift */,
+				AC807DC727EAF35E00D5552D /* DoneTasksTableViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACADE40A27E2C96800475242 /* Build configuration list for PBXNativeTarget "ios-tasks-app-3" */;
 			buildPhases = (
+				88E03D803393915C803FCB76 /* [CP] Check Pods Manifest.lock */,
 				ACADE3F227E2C96000475242 /* Sources */,
 				ACADE3F327E2C96000475242 /* Frameworks */,
 				ACADE3F427E2C96000475242 /* Resources */,
+				3A1875CCA0960756EFB13222 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +226,73 @@
 			files = (
 				ACADE40627E2C96800475242 /* LaunchScreen.storyboard in Resources */,
 				ACADE40327E2C96800475242 /* Assets.xcassets in Resources */,
+				AC34F57227E5A50000D1AC92 /* GoogleService-Info.plist in Resources */,
+				ACADE40E27E2CA0700475242 /* Podfile in Resources */,
 				ACADE40127E2C96000475242 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A1875CCA0960756EFB13222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-tasks-app-3/Pods-ios-tasks-app-3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-tasks-app-3/Pods-ios-tasks-app-3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-tasks-app-3/Pods-ios-tasks-app-3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E03D803393915C803FCB76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-tasks-app-3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACADE3F227E2C96000475242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACADE3FE27E2C96000475242 /* ViewController.swift in Sources */,
+				AC34F57D27E5B5E100D1AC92 /* OngoingTaskTableViewCell.swift in Sources */,
+				AC34F57427E5A75800D1AC92 /* Task.swift in Sources */,
+				ACADE3FE27E2C96000475242 /* TasksViewController.swift in Sources */,
+				ACADE41827E2EF7900475242 /* NewTaskViewController.swift in Sources */,
+				AC807DC827EAF35E00D5552D /* DoneTasksTableViewController.swift in Sources */,
 				ACADE3FA27E2C96000475242 /* AppDelegate.swift in Sources */,
+				AC34F57A27E5B14B00D1AC92 /* TasksVCDelegate.swift in Sources */,
+				ACADE41127E2E14E00475242 /* MenuSection.swift in Sources */,
 				ACADE3FC27E2C96000475242 /* SceneDelegate.swift in Sources */,
+				ACADE41427E2E3B400475242 /* OngoingTasksTableViewController.swift in Sources */,
+				AC807DC427EAF2AD00D5552D /* DoneTaskTableViewCell.swift in Sources */,
+				AC34F57727E5A84C00D1AC92 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +434,7 @@
 		};
 		ACADE40B27E2C96800475242 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00B3F0B551E29E4E4300B03 /* Pods-ios-tasks-app-3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +462,7 @@
 		};
 		ACADE40C27E2C96800475242 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761F8CD6B78BE201ECB84748 /* Pods-ios-tasks-app-3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
